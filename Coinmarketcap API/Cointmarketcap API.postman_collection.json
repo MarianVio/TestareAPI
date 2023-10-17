@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "5ccfb929-a25e-45e8-878a-e3e3e9e5b473",
+		"name": "Cointmarketcap API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30345167"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-CMC_PRO_API_KEY",
+						"value": "9459e674-5119-4ea3-b69b-d5f303f69f75",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
+					"protocol": "https",
+					"host": [
+						"pro-api",
+						"coinmarketcap",
+						"com"
+					],
+					"path": [
+						"v1",
+						"cryptocurrency",
+						"listings",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-CMC_PRO_API_KEY",
+						"value": "9459e674-5119-4ea3-b69b-d5f303f69f75",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=2",
+					"protocol": "https",
+					"host": [
+						"pro-api",
+						"coinmarketcap",
+						"com"
+					],
+					"path": [
+						"v1",
+						"cryptocurrency",
+						"listings",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
