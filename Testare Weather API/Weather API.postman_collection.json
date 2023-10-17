@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "b2fdadfc-66d8-46c2-be83-04fe3887c908",
+		"name": "Weather API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30345167"
+	},
+	"item": [
+		{
+			"name": "Vremea Pitesti",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Pitesti&appid=0d1e518156a2c316159d7933dcb50dfd&units=metric&lang=ro",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Pitesti"
+						},
+						{
+							"key": "appid",
+							"value": "0d1e518156a2c316159d7933dcb50dfd"
+						},
+						{
+							"key": "mode",
+							"value": "html",
+							"disabled": true
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
